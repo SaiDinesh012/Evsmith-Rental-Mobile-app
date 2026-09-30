@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "EVSmith",
+    "slug": "evsmith-rental",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "backgroundColor": "#FFFFFF",
+      "resizeMode": "contain"
+    },
+    "android": {
+      "package": "com.evsmith.rental",
+      "softwareKeyboardLayoutMode": "resize",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "ios": {
+      "bundleIdentifier": "com.evsmith.rental",
+      "icon": "./assets/icon.png"
+    },
+    "plugins": [
+      "@react-native-community/datetimepicker"
+    ]
+  }
+}
